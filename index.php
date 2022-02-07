@@ -12,3 +12,7 @@
  *
  * 5. Utilisez le chaînage des méthodes pour mettre à jour le nom et le prix en une seule ligne.
  */
+
+$name = new VODService();
+$price = new VODService();
+$name ->setName('angelique')->setPrice(3.58);
